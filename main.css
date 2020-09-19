@@ -14,7 +14,8 @@
 }
 
 .for_button {
-    margin: 10px 723px;
+    margin: 1vh 43vw;
+    white-space: nowrap;
     font-size: 35px;
     padding-bottom: 7px;
     border-radius: 15px;
@@ -58,7 +59,7 @@
 
 .title_wrapper {
     padding: 40px 20px 20px;
-    width: 1440px;
+    max-width: 1440px;
     margin: 150px auto 30px;
     background-color: white;
     text-align: center;
@@ -87,6 +88,11 @@ body {
     animation: gradient 10s ease infinite;
 }
 
+img {
+    max-width: 95%;
+    height: auto;
+}
+
 @keyframes gradient {
     0%{
         background-position: 0 50%;
@@ -96,5 +102,22 @@ body {
     }
     100%{
         background-position: 0 50%;
+    }
+}
+
+@media screen and (max-width: 1528px) {
+    .headsite {
+        height: 120px;
+        display: flex;
+    }
+    
+    .headsite2 {
+        top: 120px;
+        height: 5px;
+    }
+    
+    .for_button {
+        white-space: nowrap;
+        margin: 4vh auto;
     }
 }
