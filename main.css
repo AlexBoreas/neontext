@@ -84,7 +84,7 @@ body {
     margin: 0;
     
     background: linear-gradient(45deg,#A1FF00, #003BC4, #FF0000);
-    background-size: 2573% 2573%;
+    background-size: 2574% 2574%;
     animation: gradient 10s ease infinite;
 }
 
@@ -121,3 +121,4 @@ img {
         margin: 4vh auto;
     }
 }
+
