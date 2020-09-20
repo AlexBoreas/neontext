@@ -1,5 +1,28 @@
+.href_in_down {
+    color: white;
+    text-align: center;
+    margin: 0px 45px 30px;
+    padding: 45px;
+    text-decoration-color: red;
+}
+
+.text_in_down {
+    color: white;
+    text-align: center;
+    margin: 30px 45px 0px;
+    padding: 45px;
+    text-decoration-color: red;
+}
+
+.downsite {
+    background-color: black;
+    color: black;
+    height: auto;
+    width: auto;
+}
+
 .headsite2 {
-    background-color: #737373;
+    background-color: #4a4a4a;
     width: auto;
     margin: 0px;
     position: fixed;
@@ -84,7 +107,7 @@ body {
     margin: 0;
     
     background: linear-gradient(45deg,#A1FF00, #003BC4, #FF0000);
-    background-size: 2574% 2574%;
+    background-size: 2674% 2674%;
     animation: gradient 10s ease infinite;
 }
 
@@ -122,3 +145,20 @@ img {
     }
 }
 
+@media screen and (max-width: 412px) {
+        
+    .downsite {
+    height: auto;
+    }
+    
+    .text_in_down {
+        padding: 20px;
+        margin: 20px 0px 0px;
+    }
+    
+    .href_in_down {
+    margin: 0px 0px 7px;
+    padding: 10px;
+}
+
+}
